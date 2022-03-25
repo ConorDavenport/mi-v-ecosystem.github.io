@@ -1,0 +1,286 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>FPGA User - Mi-V Ecosystem</title>
+<meta name="description" content="Welcome to the FPGA User page.">
+
+
+  <meta name="author" content="Microchip">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Mi-V Ecosystem">
+<meta property="og:title" content="FPGA User">
+<meta property="og:url" content="http://localhost:4000/docs/fpga-user/">
+
+
+  <meta property="og:description" content="Welcome to the FPGA User page.">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/201106-CORP-BNR-Design-Centers-FPGAs-and-plds-Banner-2880x280.jpg">
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/docs/fpga-user/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Mi-V Ecosystem Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Mi-V Ecosystem
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/docs/polarfire-soc/">PolarFire SoC</a>
+            </li><li class="masthead__menu-item">
+              <a href="/docs/mi-v-soft-cpu/">Mi-V Soft CPUs</a>
+            </li><li class="masthead__menu-item">
+              <a href="/docs/tools/">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="/docs/training/">Training</a>
+            </li><li class="masthead__menu-item">
+              <a href="/docs/coming_soon/">FAQ</a>
+            </li><li class="masthead__menu-item">
+              <a href="/docs/support/">Support</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style="background-color: #5e616c; background-image: url('/assets/images/201106-CORP-BNR-Design-Centers-FPGAs-and-plds-Banner-2880x280.jpg');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          FPGA User
+
+        
+      </h1>
+      
+        <p class="page__lead">Welcome to the FPGA User page.
+</p>
+      
+      
+
+
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="FPGA User">
+    <meta itemprop="description" content="Welcome to the FPGA User page.">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h3 id="fpga-developer">FPGA Developer</h3>
+
+<ol>
+  <li>Import the Icicle Kit <a href="https://github.com/polarfire-soc/icicle-kit-reference-design/releases">reference design</a> into Libero SoC Design Suite.</li>
+  <li>If you wish to change the MSS Fabric Interface:
+    <ul>
+      <li>Launch the MSS Configurator.</li>
+      <li>Add/edit the peripherals.</li>
+      <li>Change the pin assignment of the MSS peripherals.</li>
+      <li>Configure the FIC.</li>
+      <li>Configure the clocks.</li>
+      <li>Change the MSSIO configuration.</li>
+      <li>Configure DDR/L2 memory partition.</li>
+      <li>Generate the MSS configuration as a MSS component file (cxz).</li>
+    </ul>
+  </li>
+  <li>Follow the Libero SoC design flow:
+    <ul>
+      <li>Import the MSS component.</li>
+      <li>Add custom HDL.</li>
+      <li>Add timing constaints.</li>
+      <li>Synthesize.</li>
+      <li>Place and Route.</li>
+      <li>Initialize eNVM client with HSS binary built with the configuration created in step 2.</li>
+    </ul>
+  </li>
+  <li>If you wish to decode the FIC address in the fabric, export the Libero memory map and hand over this information to the software developer to import into the embedded flow.</li>
+  <li>Program and test the bitstream.</li>
+</ol>
+
+<h3 id="reference-material">Reference Material</h3>
+<p><a href="http://coredocs.s3.amazonaws.com/Libero/12_5_0/Tool/pf_des_flow_ug.pdf">UG0758 User Guide PolarFire FPGA Design Flow Libero SoC</a></p>
+
+<p><a href="https://onlinedocs.microchip.com/pr/GUID-BC096324-C726-48DB-8987-EF2BBC748A73-en-US-1/index.html">MSS configurator tool</a></p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Mi-V Ecosystem. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
